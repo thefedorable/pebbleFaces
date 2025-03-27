@@ -1,0 +1,44 @@
+{
+  "name": "watchface",
+  "author": "Fedorable",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "companyName": "Pebble",
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "watchface",
+    "uuid": "ea24dd93-08dd-4e39-931a-78438b116403",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_38",
+          "file": "fonts/HyliaSerifBeta-Regular.otf",
+          "compatibility":"2.7"
+        },
+        {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_15",
+          "file": "fonts/HyliaSerifBeta-Regular.otf",
+          "compatibility":"2.7"
+        }
+      ]
+    }
+  }
+}

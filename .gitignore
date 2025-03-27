@@ -1,0 +1,8 @@
+# IntelliJ IDEA directory
+.idea/
+
+# Build directory
+build/
+
+# Lock file for WAF Linux build
+.lock-waf_linux2_build

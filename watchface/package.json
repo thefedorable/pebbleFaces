@@ -1,8 +1,9 @@
 {
   "name": "watchface",
-  "author": "MakeAwesomeHappen",
+  "author": "fedorable",
   "version": "1.0.0",
   "keywords": ["pebble-app"],
+  "companyName": "fedorable",
   "private": true,
   "dependencies": {},
   "pebble": {
@@ -17,7 +18,7 @@
       "diorite"
     ],
     "watchapp": {
-      "watchface": false
+      "watchface": true
     },
     "messageKeys": [
       "dummy"
